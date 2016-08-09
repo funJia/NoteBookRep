@@ -10,7 +10,18 @@
 
 ### 3.复制资源文件
 
+[viewCode](/command/SAAS_CMD/CopyStatic.md)
 注意：
   1.包括 js,css,img
   2.系统配置信息
+
+### 4.复制动态库文件
+
+[viewCode](/command/SAAS_CMD/CopyDll.md)
+
+注意：
+
+ 1.包括 系统动态库和第三方动态库
+ 2.需排除指定后缀的文件
+
 
