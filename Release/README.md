@@ -23,6 +23,6 @@
 #### 四、附录
 
 1.[SAAS Debug命令](SaaS_Debug.md)
-1.[SAAS Release命令](SaaS_Debug.md)
 
+2.[SAAS Release命令](SaaS_Debug.md)
 
