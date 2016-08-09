@@ -35,7 +35,7 @@
 
 ### 6.通过Fis3进行前端工程构建
 
-[viewCode](/command/SAAS_CMD/CopyDll.md)
+[viewCode](/command/SAAS_CMD/Fi3Build.md)
    
    注意：
      1.构建时分 debug 和 release 版本
