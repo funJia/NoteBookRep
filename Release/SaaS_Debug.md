@@ -21,7 +21,23 @@
 
 注意：
 
- 1.包括 系统动态库和第三方动态库
+1.包括 系统动态库和第三方动态库
  2.需排除指定后缀的文件
+
+### 5.替换开发环境的布局页面
+
+[viewCode](/command/SAAS_CMD/CopyDevLayout.md)
+
+注意：
+ 1.项目中可能有多个布局页
+
+2.项目中可能有未使用布局页的页面如 ’登录页面‘
+
+### 6.通过Fis3进行前端工程构建
+
+[viewCode](/command/SAAS_CMD/CopyDll.md)
+   
+   注意：
+     1.构建时分 debug 和 release 版本
 
 

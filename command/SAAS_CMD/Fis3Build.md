@@ -1,0 +1,5 @@
+#Debug Cmd
+
+cd D:\HLProject\LocalRelease\SaaSMg\SaaSBuildDebug
+
+fis3 release debug -d D:\HLProject\LocalRelease\SaaSMg\SaaSBuild_Debug
