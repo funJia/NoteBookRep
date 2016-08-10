@@ -47,4 +47,3 @@
 注意：
    1.主要是layout里 requrie.js的引用位置问题
 
-

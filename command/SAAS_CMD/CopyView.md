@@ -1,3 +1,5 @@
+#Debug Cmd
+
 @echo off
 
 goto start
