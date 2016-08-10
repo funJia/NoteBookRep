@@ -1,4 +1,4 @@
-# SaaS 开发环境\(Debug\)Jenkins配置
+# SaaS  Jenkins配置
 
 ### 1.MS发布
 
