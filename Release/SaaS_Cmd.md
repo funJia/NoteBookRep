@@ -42,7 +42,7 @@
 
 ### 7.通过控制台程序复写 fis3的构造结果
 
-[viewCode](/command/SAAS_CMD/Fis3Build.md)
+[viewCode](/command/SAAS_CMD/ConsoleOverwrite.md)
 
 注意：
    1.主要是layout里 requrie.js的引用位置问题
