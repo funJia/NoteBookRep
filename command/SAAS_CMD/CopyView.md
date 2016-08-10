@@ -56,3 +56,7 @@ echo succeed
 
 pause&exit
 
+
+# Release Cmd
+
+
