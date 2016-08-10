@@ -1,4 +1,4 @@
-Debug Cmd
+#Debug Cmd
 
 @echo off
 
