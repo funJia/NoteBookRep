@@ -47,3 +47,7 @@
 注意：
    1.主要是layout里 requrie.js的引用位置问题
 
+### 8.构建结束后复制无法构建的内容
+
+[viewCode](/command/SAAS_CMD/CopyNotBuildFile.md)
+
