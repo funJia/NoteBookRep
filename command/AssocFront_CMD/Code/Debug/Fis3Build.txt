@@ -1,0 +1,2 @@
+cd D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowDebug\
+fis3 release debug -d D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Debug\
