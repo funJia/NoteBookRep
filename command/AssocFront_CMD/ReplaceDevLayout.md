@@ -1,6 +1,6 @@
 # Debug Cmd
 
-set layout="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowDebug\.cshtml"
+set layout="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowDebug\Index.cshtml"
 set login="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildDebug\Build\Login.cshtml"
 set layoutOp="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildDebug\Views\Shared\"
 set loginOp="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildDebug\Views\Home\"
