@@ -1,0 +1,25 @@
+@echo off
+
+ goto start
+
+ = 复制页面文件
+
+ = 可以是多行文本，可以是命令
+
+ = 可以包含重定向符号和其他特殊字符
+
+ = 只要不包含 :start 这一行，就都是注释
+
+ :start
+
+set src="D:\HLProject\Develop\AssocWebSite\AssocManager\HLAssoc.WebPCMg\Views"
+
+set output="D:\HLProject\LocalRelease\AssocMg\AssocMgRelease\Views\"
+
+set excludeStr="D:\HLProject\ReleaseBatch\AssocWebSite\EXCLUDE.txt"
+
+xcopy "%src%" "%output%" /exclude:D:\HLProject\ReleaseBatch\AssocWebSite\EXCLUDE.txt /s/y
+
+echo succeed
+
+pause&exit
