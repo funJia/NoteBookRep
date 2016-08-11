@@ -12,12 +12,14 @@
 注意： 1.包括 js,css,img 2.系统配置信息
 
 3.替换开发环境的布局页面
+[Debug Code](/command/AssocFront_CMD/Code/Debug/BuildPreparation.txt)
 
-viewCode\]\(\/command\/AssocFront\_CMD\/BuildPreparation.md\)
+[Release Code](/command/AssocFront_CMD/Code/Release/BuildPreparation.txt)
 
 4.通过Fis3进行前端工程构建
+[Debug Code](/command/AssocFront_CMD/Code/Debug/Fis3Build.txt)
 
-[vieCode](/command/AssocFront_CMD/Fis3Build.md)
+[Release Code](/command/AssocFront_CMD/Code/Release/Fis3Build.txt)
 
 注意： 1.构建时分 debug 和 release 版本
 
