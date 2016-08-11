@@ -10,7 +10,7 @@
 
 3.通控制台程序进行Fis3构建准备
 
- viewCode
+[ viewCode](/command/AssocFront_CMD/BuildPreparation.md)
 
 
 4.复制动态库文件
