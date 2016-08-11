@@ -18,13 +18,13 @@ set indexOp="D:\HLProject\LocalRelease\ AssocFrontShowDebug\Index.cshtml"
 
 xcopy "% memberContent %" "% memberContentOp%" \/s\/y
 
-xcopy "% memberContent %" "% memberContentOp%" \/s\/y
+xcopy "%  memberContentTop %" "%  memberContentTop %" \/s\/y
 
-xcopy "% memberContent %" "% memberContentOp%" \/s\/y
+xcopy "%  newsActContent %" "%  newsActContent %" \/s\/y
 
-xcopy "% memberContent %" "% memberContentOp%" \/s\/y
+xcopy "%  registerContent  %" "%  registerContent %" \/s\/y
 
-xcopy "% memberContent %" "% memberContentOp%" \/s\/y
+xcopy "%  index %" "%  index %" \/s\/y
 
 # Release Cmd
 
