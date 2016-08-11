@@ -1,4 +1,5 @@
 # 协会前台   Jenkins和Fis3配置
+##V1.0
 
 1.MS发布
 
@@ -23,5 +24,9 @@
  [viewCode](/command/AssocFront_CMD/ConsoleOverwrite.md)
 
 注意： 1.主要是layout里 requrie.js的引用位置问题
+
+
+##V2.0
+
 
 
