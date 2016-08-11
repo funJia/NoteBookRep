@@ -8,5 +8,5 @@ fis3 release debug -d D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_De
 
 cd D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\
 
-fis3 release -d D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow\_Release\
+fis3 release -d D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Release\
 
