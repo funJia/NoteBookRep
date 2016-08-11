@@ -1,6 +1,6 @@
 # Debug Cmd
 
-set  memberContent="D:\HLProject\LocalRelease\AssocFrontShowDebug\_MemberContent.cshtml"
+set  memberContent="D:\HLProject\LocalRelease\AssocFrontShowDebug_MemberContent.cshtml"
 set  memberContentTop="D:\HLProject\LocalRelease\ AssocFrontShowDebug\_MemberContentTop.cshtml"
 set  newsActContent="D:\HLProject\LocalRelease\ AssocFrontShowDebug\_NewsActContent.cshtml"
 set  registerContent="D:\HLProject\LocalRelease\ AssocFrontShowDebug\_RegisterContent.cshtml"
