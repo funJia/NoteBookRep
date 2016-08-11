@@ -1,0 +1,5 @@
+cd D:\HLProject\ReleaseBatch\ConsoleApp
+
+ConsoleApp.exe D:\HLProject\LocalRelease\AssocMg\AssocMg_Release\Views\Home\Login.cshtml fis3after
+
+ConsoleApp.exe D:\HLProject\LocalRelease\AssocMg\AssocMg_Release\Views\Shared\_Layout2.cshtml fis3after
