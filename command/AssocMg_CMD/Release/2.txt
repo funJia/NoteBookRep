@@ -1,0 +1,63 @@
+@echo off
+
+
+
+set assets="D:\HLProject\Develop\AssocWebSite\AssocManager\HLAssoc.Web\assets"
+
+
+
+set comDevl="D:\HLProject\Develop\AssocWebSite\AssocManager\HLAssoc.Web\ComponentDevelopment"
+
+
+
+set components="D:\HLProject\Develop\AssocWebSite\AssocManager\HLAssoc.Web\components"
+
+
+
+set content="D:\HLProject\Develop\AssocWebSite\AssocManager\HLAssoc.Web\content"
+
+
+
+set output="D:\HLProject\LocalRelease\AssocMg\AssocMgRelease\"
+
+
+
+set newOutput="%output%assets\"
+
+
+
+xcopy "%assets%" "%newOutput%" /s/y
+
+
+
+set newOutput="%output%ComponentDevelopment\"
+
+
+
+xcopy "%comDevl%" "%newOutput%" /s/y
+
+
+
+set newOutput="%output%components\"
+
+
+
+xcopy "%components%" "%newOutput%" /s/y
+
+
+
+set newOutput="%output%content\"
+
+
+
+xcopy "%content%" "%newOutput%" /s/y
+
+
+
+echo succeed
+
+
+
+pause
+
+
