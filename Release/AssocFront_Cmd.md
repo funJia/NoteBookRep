@@ -12,8 +12,7 @@
 
 3.替换开发环境的布局页面
 
-
-[viewCode](/command/AssocFront_CMD/BuildPreparation.md)
+viewCode](/command/AssocFront_CMD/BuildPreparation.md)
 
 4.通过Fis3进行前端工程构建
 
@@ -36,11 +35,9 @@
 
 注意： 1.包括 js,css,img 2.系统配置信息
 
-3.
-
 3.通控制台程序进行Fis3构建准备
 
-[viewCode](/command/AssocFront_CMD/BuildPreparation.md)
+[viewCode](/command/AssocFront_CMD/ReplaceDevLayout.md)
 
 4.通过Fis3进行前端工程构建
 
