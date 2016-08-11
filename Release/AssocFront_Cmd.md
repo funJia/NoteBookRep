@@ -32,6 +32,7 @@
 
 2.复制资源文件
 [viewCode](/command/AssocFront_CMD/CopyStatic.md)
+
 注意： 1.包括 js,css,img 2.系统配置信息
 
 3.通控制台程序进行Fis3构建准备
