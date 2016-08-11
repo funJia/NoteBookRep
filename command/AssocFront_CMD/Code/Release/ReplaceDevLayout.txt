@@ -16,7 +16,7 @@ set newsActContentOp="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRel
 
 set registerContentOp="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Shared\"
 
-set indexOp="D:\HLProject\LocalRelease\AssocFrontShow\ AssocFrontShowRelease\Views\Home\"
+set indexOp="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Home\"
 
 xcopy "%memberContent%" "%memberContentOp%" /s/y
 
