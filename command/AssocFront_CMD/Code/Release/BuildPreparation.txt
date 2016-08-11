@@ -1,0 +1,6 @@
+cd D:\HLProject\ReleaseBatch\ConsoleApp
+ConsoleApp.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Shared\_MemberContent.cshtml fis3before
+ConsoleApp.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Shared\_MemberContentTop.cshtml fis3before
+ConsoleApp.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Shared\_NewsActContent.cshtml fis3before
+ConsoleApp.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Shared\_RegisterContent.cshtml fis3before
+ConsoleApp.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Home\Index.cshtml fis3before
