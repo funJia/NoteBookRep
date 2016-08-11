@@ -1,33 +1,13 @@
 cd D:\HLProject\ReleaseBatch\ConsoleApp
 
-ConsoleAppV2.0.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Release\Views\Home\Login.cshtml fis3init
+ConsoleAppV2.0.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Release\Views\Shared\_MemberContent.cshtml fis3init
 
-ConsoleAppV2.0.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Release\Views\Shared\_Layout2.cshtml fis3init
+ConsoleAppV2.0.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Release\Views\Shared\_MemberContentTop.cshtml fis3init
 
+ConsoleAppV2.0.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Release\Views\Shared\_NewsActContent.cshtml fis3init
 
+ConsoleAppV2.0.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Release\Views\Shared\_RegisterContent.cshtml fis3init
 
-set memberContent="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_MemberContent.cshtml"
-
-
-
-set memberContentTop="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_MemberContentTop.cshtml"
-
-
-
-set newsActContent="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_NewsActContent.cshtml"
-
-
-
-set registerContent="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_RegisterContent.cshtml"
-
-
-
-set index="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\Index.cshtml"
-
-
-
-
-
-
+ConsoleAppV2.0.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Release\Views\Home\Index.cshtml fis3init
 
 
