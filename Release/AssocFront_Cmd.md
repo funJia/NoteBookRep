@@ -24,8 +24,9 @@
 注意： 1.构建时分 debug 和 release 版本
 
 5.通过控制台程序整理 fis3的构造结果
+[Debug Code](/command/AssocFront_CMD/Code/Debug/ConsoleOverwrite.txt)
 
-[viewCode](/command/AssocFront_CMD/ConsoleOverwrite.md)
+[Release Code](/command/AssocFront_CMD/Code/Release/ConsoleOverwrite.txt)
 
 注意： 1.主要是layout里 requrie.js的引用位置问题
 
