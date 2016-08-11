@@ -4,13 +4,19 @@
 
 2.复制资源文件
 
- [viewCode](/command/AssocFront_CMD/CopyStatic.md)
+[viewCode](/command/AssocFront_CMD/CopyStatic.md)
 
 注意： 1.包括 js,css,img 2.系统配置信息
 
 3.通控制台程序进行Fis3构建准备
 
 [ viewCode](/command/AssocFront_CMD/BuildPreparation.md)
+
+4.通过Fis3进行前端工程构建
+  
+  vieCode
+
+注意： 1.构建时分 debug 和 release 版本
 
 
 4.复制动态库文件
@@ -44,5 +50,4 @@ viewCode
 8.构建结束后复制无法构建的内容
 
 viewCode
-
 
