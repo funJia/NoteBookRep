@@ -10,18 +10,21 @@ set registerContent="D:\HLProject\LocalRelease\ AssocFrontShowDebug\_RegisterCon
 
 set index="D:\HLProject\LocalRelease\ AssocFrontShowDebug\Index.cshtml"
 
-
-
 set memberContentOp="D:\HLProject\LocalRelease\AssocFrontShowDebug\_MemberContent.cshtml"
 set memberContentTopOp="D:\HLProject\LocalRelease\ AssocFrontShowDebug\_MemberContentTop.cshtml"
 set newsActContentOp="D:\HLProject\LocalRelease\ AssocFrontShowDebug\_NewsActContent.cshtml"
 set registerContentOp="D:\HLProject\LocalRelease\ AssocFrontShowDebug\_RegisterContent.cshtml"
 set indexOp="D:\HLProject\LocalRelease\ AssocFrontShowDebug\Index.cshtml"
 
+xcopy "% memberContent %" "% memberContentOp%" \/s\/y
 
-xcopy "%layout%" "%layoutOp%" \/s\/y
+xcopy "% memberContent %" "% memberContentOp%" \/s\/y
 
-xcopy "%login%" "%loginOp%" \/s\/y
+xcopy "% memberContent %" "% memberContentOp%" \/s\/y
+
+xcopy "% memberContent %" "% memberContentOp%" \/s\/y
+
+xcopy "% memberContent %" "% memberContentOp%" \/s\/y
 
 # Release Cmd
 
