@@ -1,0 +1,63 @@
+set memberContent="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_MemberContent.cshtml"
+
+
+
+set memberContentTop="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_MemberContentTop.cshtml"
+
+
+
+set newsActContent="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_NewsActContent.cshtml"
+
+
+
+set registerContent="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_RegisterContent.cshtml"
+
+
+
+set index="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\Index.cshtml"
+
+
+
+set memberContentOp="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Shared\"
+
+
+
+set memberContentTopOp="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Shared\"
+
+
+
+set newsActContentOp="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Shared\"
+
+
+
+set registerContentOp="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Shared\"
+
+
+
+set indexOp="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Views\Home\"
+
+
+
+xcopy "%memberContent%" "%memberContentOp%" /s/y
+
+
+
+xcopy "%memberContentTop%" "%memberContentTopOp%" /s/y
+
+
+
+xcopy "%newsActContent%" "%newsActContentOp%" /s/y
+
+
+
+xcopy "%registerContent%" "%registerContentOp%" /s/y
+
+
+
+xcopy "%index%" "%indexOp%" /s/y
+
+
+
+
+
+
