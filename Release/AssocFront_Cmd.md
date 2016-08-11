@@ -18,13 +18,10 @@
 
 注意： 1.构建时分 debug 和 release 版本
 
-5.通过控制台程序复写 fis3的构造结果
+5.通过控制台程序整理 fis3的构造结果
 
 viewCode
 
 注意： 1.主要是layout里 requrie.js的引用位置问题
 
-8.构建结束后复制无法构建的内容
-
-viewCode
 
