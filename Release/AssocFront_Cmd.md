@@ -7,14 +7,13 @@
 2.复制资源文件
 [Debug Code](/command/AssocFront_CMD/Code/Debug/CopyStatic.txt)
 
-
-[viewCode](/command/AssocFront_CMD/CopyStatic.md)
+[Release Code](/command/AssocFront_CMD/Code/Release/CopyStatic.txt)
 
 注意： 1.包括 js,css,img 2.系统配置信息
 
 3.替换开发环境的布局页面
 
-viewCode](/command/AssocFront_CMD/BuildPreparation.md)
+viewCode\]\(\/command\/AssocFront\_CMD\/BuildPreparation.md\)
 
 4.通过Fis3进行前端工程构建
 
