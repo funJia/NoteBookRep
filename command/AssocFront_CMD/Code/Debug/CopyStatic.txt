@@ -1,0 +1,22 @@
+@echo off
+set assets="D:\HLProject\Develop\AssocWebSite\AssocFront\HLAssocComponent\assets"
+set comDevl="D:\HLProject\Develop\AssocWebSite\AssocFront\HLAssocComponent\ComponentDevelopment"
+set content="D:\HLProject\Develop\AssocWebSite\AssocFront\HLAssocComponent\content"
+set configs="D:\HLProject\Develop\AssocWebSite\AssocFront\HLAssocComponent\configs"
+set frontEndAssets="D:\HLProject\Develop\AssocWebSite\AssocFront\HLAssocComponent\frontEndAssets"
+set theme="D:\HLProject\Develop\AssocWebSite\AssocFront\HLAssocComponent\theme"
+set output="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowDebug\"
+set newOutput="%output%assets\"
+xcopy "%assets%" "%newOutput%" /s/y
+set newOutput="%output%ComponentDevelopment\"
+xcopy "%comDevl%" "%newOutput%" /s/y
+set newOutput="%output%content\"
+xcopy "%content%" "%newOutput%" /s/y
+set newOutput="%output%configs\"
+xcopy "%configs%" "%newOutput%" /s/y
+set newOutput="%output%frontEndAssets\"
+xcopy "%frontEndAssets%" "%newOutput%" /s/y
+set newOutput="%output%theme\"
+xcopy "%theme%" "%newOutput%" /s/y
+echo succeed
+pause
