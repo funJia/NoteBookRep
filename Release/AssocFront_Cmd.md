@@ -37,10 +37,7 @@
 
 3.通控制台程序进行Fis3构建准备
 
-
-
 [viewCode](/command/AssocFront_CMD/BuildPreparation.md)
-
 
 
 4.通过Fis3进行前端工程构建
