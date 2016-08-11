@@ -5,6 +5,8 @@
 1.MS发布
 
 2.复制资源文件
+[Debug Code](/command/AssocFront_CMD/Code/Debug/CopyStatic.txt)
+
 
 [viewCode](/command/AssocFront_CMD/CopyStatic.md)
 
