@@ -1,0 +1,3 @@
+cd D:\HLProject\LocalRelease\AssocMg\AssocMgRelease
+
+fis3 release -d D:\HLProject\LocalRelease\AssocMg\AssocMg_Release
