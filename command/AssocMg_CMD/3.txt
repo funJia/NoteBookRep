@@ -1,0 +1,11 @@
+@echo off
+
+set bin="D:\HLProject\Develop\AssocWebSite\AssocManager\HLAssoc.Web\bin\AutoMapper.Net4.dll"
+
+set output="D:\HLProject\LocalRelease\AssocMg\AssocMgRelease\bin\"
+
+xcopy "%bin%" "%output%" /s/y
+
+echo succeed
+
+pause
