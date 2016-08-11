@@ -4,3 +4,30 @@ ConsoleAppV2.0.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Relea
 
 ConsoleAppV2.0.exe D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShow_Release\Views\Shared\_Layout2.cshtml fis3init
 
+
+
+set memberContent="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_MemberContent.cshtml"
+
+
+
+set memberContentTop="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_MemberContentTop.cshtml"
+
+
+
+set newsActContent="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_NewsActContent.cshtml"
+
+
+
+set registerContent="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\_RegisterContent.cshtml"
+
+
+
+set index="D:\HLProject\LocalRelease\AssocFrontShow\AssocFrontShowRelease\Build\Index.cshtml"
+
+
+
+
+
+
+
+
