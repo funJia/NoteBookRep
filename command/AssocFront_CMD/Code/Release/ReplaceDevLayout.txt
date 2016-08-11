@@ -8,24 +8,24 @@ set registerContent="D:\HLProject\LocalRelease\AssocFrontShowRelease\Build\_Regi
 
 set index="D:\HLProject\LocalRelease\AssocFrontShowRelease\Build\Index.cshtml"
 
-set memberContentOp="D:\HLProject\LocalRelease\AssocFrontShowRelease\Views\Shared\_MemberContent.cshtml"
+set memberContentOp="D:\HLProject\LocalRelease\AssocFrontShowRelease\Views\Shared\"
 
-set memberContentTopOp="D:\HLProject\LocalRelease\AssocFrontShowRelease\Views\Shared\_MemberContentTop.cshtml"
+set memberContentTopOp="D:\HLProject\LocalRelease\AssocFrontShowRelease\Views\Shared\"
 
-set newsActContentOp="D:\HLProject\LocalRelease\AssocFrontShowRelease\Views\Shared\_NewsActContent.cshtml"
+set newsActContentOp="D:\HLProject\LocalRelease\AssocFrontShowRelease\Views\Shared\"
 
-set registerContentOp="D:\HLProject\LocalRelease\AssocFrontShowRelease\Views\Shared\_RegisterContent.cshtml"
+set registerContentOp="D:\HLProject\LocalRelease\AssocFrontShowRelease\Views\Shared\"
 
-set indexOp="D:\HLProject\LocalRelease\ AssocFrontShowRelease\Views\Home\Index.cshtml"
+set indexOp="D:\HLProject\LocalRelease\ AssocFrontShowRelease\Views\Home\"
 
-xcopy "%memberContent%" "%memberContentOp%" \/s\/y
+xcopy "%memberContent%" "%memberContentOp%" /s/y
 
-xcopy "%memberContentTop%" "%memberContentTopOp%" \/s\/y
+xcopy "%memberContentTop%" "%memberContentTopOp%" /s/y
 
-xcopy "%newsActContent%" "%newsActContentOp%" \/s\/y
+xcopy "%newsActContent%" "%newsActContentOp%" /s/y
 
-xcopy "%registerContent%" "%registerContentOp%" \/s\/y
+xcopy "%registerContent%" "%registerContentOp%" /s/y
 
-xcopy "%index%" "%indexOp%" \/s\/y
+xcopy "%index%" "%indexOp%" /s/y
 
 
