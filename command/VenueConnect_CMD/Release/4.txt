@@ -1,0 +1,5 @@
+cd D:\HLProject\ReleaseBatch\ConsoleApp
+
+ConsoleApp.exe D:\HLProject\LocalRelease\VenueConnect_Release\View\model\IndexHead.Master fis3after
+
+ConsoleApp.exe D:\HLProject\LocalRelease\VenueConnect_Release\View\model\Login.Master fis3after
