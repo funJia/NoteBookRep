@@ -2,11 +2,12 @@ set indexHead="D:\HLProject\LocalRelease\VenueConnect\Build\IndexHead.Master"
 
 set login="D:\HLProject\LocalRelease\VenueConnect\Build\Login.Master"
 
-set indexHeadOp="D:\HLProject\LocalRelease\AssocMg\AssocMgRelease\Views\Home\"
+set indexHeadOp="D:\HLProject\LocalRelease\VenueConnect_Release\"
 
-set loginOp="D:\HLProject\LocalRelease\AssocMg\AssocMgRelease\Views\Shared\"
+set loginOp="D:\HLProject\LocalRelease\VenueConnect_Release\"
 
 xcopy "%indexHead%" "%indexHeadOp%" /s/y
 
 xcopy "%login%" "%loginOp%" /s/y
+
 
