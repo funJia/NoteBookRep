@@ -2,9 +2,9 @@ set indexHead="D:\HLProject\LocalRelease\VenueConnect\Build\IndexHead.Master"
 
 set login="D:\HLProject\LocalRelease\VenueConnect\Build\Login.Master"
 
-set indexHeadOp="D:\HLProject\LocalRelease\VenueConnect_Release\"
+set indexHeadOp="D:\HLProject\LocalRelease\VenueConnect_Release\View\model\"
 
-set loginOp="D:\HLProject\LocalRelease\VenueConnect_Release\"
+set loginOp="D:\HLProject\LocalRelease\VenueConnect_Release\\View\model\"
 
 xcopy "%indexHead%" "%indexHeadOp%" /s/y
 
