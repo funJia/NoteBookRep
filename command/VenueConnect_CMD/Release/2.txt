@@ -1,5 +1,12 @@
-cd D:\HLProject\ReleaseBatch\ConsoleApp
+set indexHead="D:\HLProject\LocalRelease\VenueConnect\Build\IndexHead.Master"
 
-ConsoleApp.exe D:\HLProject\LocalRelease\VenueConnect\View\model\IndexHead.Master fis3before
+set login="D:\HLProject\LocalRelease\VenueConnect\Build\Login.Master"
 
-ConsoleApp.exe D:\HLProject\LocalRelease\VenueConnect\View\model\Login.Master fis3before
+set indexHeadOp="D:\HLProject\LocalRelease\AssocMg\AssocMgRelease\Views\Home\"
+
+set loginOp="D:\HLProject\LocalRelease\AssocMg\AssocMgRelease\Views\Shared\"
+
+xcopy "%indexHead%" "%indexHeadOp%" /s/y
+
+xcopy "%login%" "%loginOp%" /s/y
+
