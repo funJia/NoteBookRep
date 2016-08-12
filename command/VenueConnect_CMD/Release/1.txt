@@ -1,0 +1,25 @@
+@echo off
+
+set configs="D:\HLProject\Develop\VenueConnect\VenueConnect\configs"
+
+set content="D:\HLProject\Develop\VenueConnect\VenueConnect\Content"
+
+set key="D:\HLProject\Develop\VenueConnect\VenueConnect\key"
+
+set output="D:\HLProject\LocalRelease\VenueConnect\"
+
+set newOutput="%output%configs\"
+
+xcopy "%configs%" "%newOutput%" /s/y
+
+set newOutput="%output%Content\"
+
+xcopy "%content%" "%newOutput%" /s/y
+
+set newOutput="%output%Key\"
+
+xcopy "%key%" "%newOutput%" /s/y
+
+echo succeed
+
+pause
