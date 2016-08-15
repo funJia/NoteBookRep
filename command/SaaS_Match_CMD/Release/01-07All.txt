@@ -1,0 +1,170 @@
+@echo off
+
+ goto start
+
+ = 可以是多行文本，可以是命令
+
+ = 可以包含重定向符号和其他特殊字符
+
+ = 只要不包含 :start 这一行，就都是注释
+
+ :start
+
+set generalMg="D:\HLProject\Branch\SaaS_Match\HLSteward.GeneralMg\Views"
+
+set checkstandMg="D:\HLProject\Branch\SaaS_Match\HLSteward.CheckstandMg\Views"
+
+set dataStatisticsMg="D:\HLProject\Branch\SaaS_Match\HLSteward.DataStatisticsMg\Views"
+
+set financeMg="D:\HLProject\Branch\SaaS_Match\HLSteward.FinanceMg\Views"
+
+set memberMg="D:\HLProject\Branch\SaaS_Match\HLSteward.MemberMg\Views"
+
+set messageCenterMg="D:\HLProject\Branch\SaaS_Match\HLSteward.MessageCenterMg\Views"
+
+set productMg="D:\HLProject\Branch\SaaS_Match\HLSteward.ProductMg\Views"
+
+set signupMg="D:\HLProject\Branch\SaaS_Match\HLSteward.SignupMg\Views"
+
+set venueMg="D:\HLProject\Branch\SaaS_Match\HLSteward.VenueMg\Views"
+
+set proSta="D:\HLProject\Branch\SaaS_Match\HLSteward.VenueStatisticsMg\Views"
+
+set output="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease\Views\"
+
+set excludeStr="D:\HLProject\ReleaseBatch\AssocWebSite\EXCLUDE.txt"
+
+xcopy "%generalMg%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\EXCLUDE.txt /s/y
+
+xcopy "%checkstandMg%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\EXCLUDE.txt /s/y
+
+xcopy "%dataStatisticsMg%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\EXCLUDE.txt /s/y
+
+xcopy "%financeMg%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\EXCLUDE.txt /s/y
+
+xcopy "%memberMg%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\EXCLUDE.txt /s/y
+
+xcopy "%messageCenterMg%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\EXCLUDE.txt /s/y
+
+xcopy "%productMg%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\EXCLUDE.txt /s/y
+
+xcopy "%signupMg%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\EXCLUDE.txt /s/y
+
+xcopy "%venueMg%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\EXCLUDE.txt /s/y
+
+xcopy "%proSta%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\EXCLUDE.txt /s/y
+
+echo succeed
+
+pause&exit
+
+
+
+@echo off
+
+set assets="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\assets"
+
+set comDevl="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\Component"
+
+set components="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\components"
+
+set content="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\content"
+
+set content="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\Build"
+
+set configs="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\configs"
+
+set data="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\Data"
+
+set configTxt="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\config.txt"
+
+set output="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease\"
+
+set newOutput="%output%assets\"
+
+xcopy "%assets%" "%newOutput%" /s/y
+
+set newOutput="%output%Component\"
+
+xcopy "%comDevl%" "%newOutput%" /s/y
+
+set newOutput="%output%components\"
+
+xcopy "%components%" "%newOutput%" /s/y
+
+set newOutput="%output%content\"
+
+xcopy "%content%" "%newOutput%" /s/y
+
+set newOutput="%output%configs\"
+
+xcopy "%configs%" "%newOutput%" /s/y
+
+set newOutput="%output%Build\"
+
+xcopy "%configs%" "%newOutput%" /s/y
+
+set newOutput="%output%Data\"
+
+xcopy "%data%" "%newOutput%" /s/y
+
+xcopy "%configTxt%" "%output%" /s/y
+
+echo succeed
+
+pause
+
+
+
+@echo off
+
+set bin="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\bin\AutoMapper.Net4.dll"
+
+set lib="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\Lib"
+
+set output="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease\bin\"
+
+xcopy "%bin%" "%output%" /s/y
+
+set output="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease\Lib\"
+
+xcopy "%lib%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\dll_Exclude.txt /s/y
+
+echo succeed
+
+pause
+
+
+
+set layout="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease\Build\_Layout2.cshtml"
+
+set login="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease\Build\Login.cshtml"
+
+set layoutOp="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease\Views\Shared\"
+
+set loginOp="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease\Views\Home\"
+
+xcopy "%layout%" "%layoutOp%" /s/y
+
+xcopy "%login%" "%loginOp%" /s/y
+
+
+
+cd D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease
+
+fis3 release -d D:\HLProject\LocalRelease\SaaSMg\SaaSBuild_Release
+
+
+
+cd D:\HLProject\ReleaseBatch\ConsoleApp
+
+ConsoleAppV2.0.exe D:\HLProject\LocalRelease\SaaSMg\SaaSBuild_Release\Views\Home\Login.cshtml fis3init
+
+ConsoleAppV2.0.exe D:\HLProject\LocalRelease\SaaSMg\SaaSBuild_Release\Views\Shared\_Layout2.cshtml fis3init
+
+
+set config="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\configs"
+
+set newOutput="D:\HLProject\LocalRelease\SaaSMg\SaaSBuild_Release\configs"
+
+xcopy "%config%" "%newOutput%" /s/y

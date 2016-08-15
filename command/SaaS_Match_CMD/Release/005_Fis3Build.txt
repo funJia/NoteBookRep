@@ -1,0 +1,4 @@
+cd D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease
+
+fis3 release -d D:\HLProject\LocalRelease\SaaSMg\SaaSBuild_Release
+

@@ -1,0 +1,4 @@
+	MSBuild Build File:    D:\HLProject\Branch\SaaS_Match\HLSteward.Web\HLSteward.Web.csproj
+
+
+   	Command Line Arguments:   /t:Rebuild /p:Configuration=Release;PublishProfile=SaaSMgRelease;DeployOnBuild=true;VisualStudioVersion=12.0

@@ -1,0 +1,5 @@
+set config="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\configs"
+
+set newOutput="D:\HLProject\LocalRelease\SaaSMg\SaaSBuild_Debug\configs"
+
+xcopy "%config%" "%newOutput%" /s/y

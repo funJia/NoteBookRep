@@ -1,0 +1,18 @@
+@echo off
+
+set bin="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\bin\AutoMapper.Net4.dll"
+
+set lib="D:\HLProject\Branch\SaaS_Match\HLSteward.Web\Lib"
+
+set output="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease\bin\"
+
+xcopy "%bin%" "%output%" /s/y
+
+set output="D:\HLProject\LocalRelease\SaaSMg\SaaSBuildRelease\Lib\"
+
+xcopy "%lib%" "%output%" /exclude:D:\HLProject\ReleaseBatch\SaaSMg\dll_Exclude.txt /s/y
+
+echo succeed
+
+pause
+
